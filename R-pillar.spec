@@ -4,7 +4,7 @@
 #
 Name     : R-pillar
 Version  : 1.0.1
-Release  : 3
+Release  : 4
 URL      : https://cran.r-project.org/bin/macosx/el-capitan/contrib/3.4/pillar_1.0.1.tgz
 Source0  : https://cran.r-project.org/bin/macosx/el-capitan/contrib/3.4/pillar_1.0.1.tgz
 Summary  : Coloured Formatting for Columns
