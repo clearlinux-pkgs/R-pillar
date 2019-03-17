@@ -1,5 +1,7 @@
 1.3.1
+R-assertthat
 R-cli
 R-fansi
 R-rlang
 R-utf8
+R-withr
