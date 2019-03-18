@@ -4,14 +4,12 @@
 #
 Name     : R-pillar
 Version  : 1.3.1
-Release  : 21
+Release  : 22
 URL      : https://cran.r-project.org/src/contrib/pillar_1.3.1.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/pillar_1.3.1.tar.gz
 Summary  : Coloured Formatting for Columns
 Group    : Development/Tools
 License  : GPL-3.0
-Requires: R-assertthat
-Requires: R-withr
 BuildRequires : R-assertthat
 BuildRequires : R-cli
 BuildRequires : R-fansi
@@ -33,10 +31,10 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1552837760
+export SOURCE_DATE_EPOCH=1552876044
 
 %install
-export SOURCE_DATE_EPOCH=1552837760
+export SOURCE_DATE_EPOCH=1552876044
 rm -rf %{buildroot}
 export LANG=C
 export CFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
