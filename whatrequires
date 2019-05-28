@@ -1,9 +1,11 @@
 # This file contains recursive sources that require this package
+R-AER
 R-AmesHousing
 R-RNeXML
 R-RcmdrMisc
 R-SGP
 R-adegenet
+R-car
 R-dbplyr
 R-dplyr
 R-dtplyr
@@ -14,7 +16,6 @@ R-ggvis
 R-haplo.stats
 R-haven
 R-htmlTable
-R-labelled
 R-mvoutlier
 R-network
 R-nycflights13
@@ -24,7 +25,6 @@ R-recipes
 R-rematch2
 R-repr
 R-rhub
-R-robustbase
 R-rsample
 R-rstan
 R-rstanarm
