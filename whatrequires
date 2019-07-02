@@ -6,7 +6,6 @@ R-RcmdrMisc
 R-SGP
 R-adegenet
 R-car
-R-dbplyr
 R-dplyr
 R-dtplyr
 R-feather
@@ -28,7 +27,6 @@ R-rhub
 R-rsample
 R-rstan
 R-rstanarm
-R-seriation
 R-shinystan
 R-sna
 R-snakecase
