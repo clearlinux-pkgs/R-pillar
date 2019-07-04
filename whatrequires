@@ -3,16 +3,12 @@ R-AER
 R-AmesHousing
 R-RNeXML
 R-RcmdrMisc
-R-SGP
 R-adegenet
 R-car
-R-dplyr
 R-dtplyr
 R-feather
 R-flexsurv
-R-ggplot2
 R-ggvis
-R-haplo.stats
 R-haven
 R-htmlTable
 R-mvoutlier
@@ -20,7 +16,6 @@ R-network
 R-nycflights13
 R-readODS
 R-readr
-R-recipes
 R-rematch2
 R-repr
 R-rhub

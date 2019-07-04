@@ -4,7 +4,7 @@
 #
 Name     : R-pillar
 Version  : 1.4.2
-Release  : 28
+Release  : 29
 URL      : https://cran.r-project.org/src/contrib/pillar_1.4.2.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/pillar_1.4.2.tar.gz
 Summary  : Coloured Formatting for Columns
@@ -16,14 +16,12 @@ Requires: R-fansi
 Requires: R-rlang
 Requires: R-utf8
 Requires: R-vctrs
-Requires: R-withr
 BuildRequires : R-cli
 BuildRequires : R-crayon
 BuildRequires : R-fansi
 BuildRequires : R-rlang
 BuildRequires : R-utf8
 BuildRequires : R-vctrs
-BuildRequires : R-withr
 BuildRequires : buildreq-R
 
 %description
@@ -36,13 +34,13 @@ of data using the full range of colours provided by modern terminals.
 export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
-export LANG=C
-export SOURCE_DATE_EPOCH=1562031903
+export LANG=C.UTF-8
+export SOURCE_DATE_EPOCH=1562205975
 
 %install
-export SOURCE_DATE_EPOCH=1562031903
+export SOURCE_DATE_EPOCH=1562205975
 rm -rf %{buildroot}
-export LANG=C
+export LANG=C.UTF-8
 export CFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
 export FCFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
 export FFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
@@ -71,7 +69,7 @@ R CMD INSTALL --preclean --install-tests --built-timestamp=${SOURCE_DATE_EPOCH} 
 cp ~/.stash/* %{buildroot}/usr/lib64/R/library/*/libs/ || :
 %{__rm} -rf %{buildroot}%{_datadir}/R/library/R.css
 %check
-export LANG=C
+export LANG=C.UTF-8
 export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
