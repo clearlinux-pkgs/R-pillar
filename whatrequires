@@ -1,6 +1,5 @@
 # This file contains recursive sources that require this package
 R-bench
-R-labelled
 R-repr
 R-rhub
 R-tibble
