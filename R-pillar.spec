@@ -4,7 +4,7 @@
 #
 Name     : R-pillar
 Version  : 1.6.1
-Release  : 46
+Release  : 47
 URL      : https://cran.r-project.org/src/contrib/pillar_1.6.1.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/pillar_1.6.1.tar.gz
 Summary  : Coloured Formatting for Columns
