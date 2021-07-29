@@ -1,6 +1,7 @@
 # This file contains recursive sources that require this package
 R-bench
 R-dplyr
+R-googledrive
 R-repr
 R-rhub
 R-tibble
