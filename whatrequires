@@ -2,6 +2,7 @@
 R-bench
 R-dplyr
 R-googledrive
+R-posterior
 R-repr
 R-rhub
 R-tibble
