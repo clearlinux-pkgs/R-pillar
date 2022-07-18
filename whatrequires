@@ -1,9 +1,11 @@
 # This file contains recursive sources that require this package
 R-bench
+R-dbplyr
 R-dplyr
 R-googledrive
 R-posterior
 R-repr
 R-rhub
+R-rsample
 R-tibble
 R-tidyverse
